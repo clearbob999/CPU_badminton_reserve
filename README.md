@@ -2,7 +2,7 @@
 
 ## Welcome to the Badminton Hall Reservation Program! This app is designed to simplify and manage the badminton hall booking process.
 
-![输入图片说明](/imgs/2023-08-26/P79lKAVcqNzHbMp2.jpeg)
+![2023校长杯羽毛球赛](/imgs/2023-08-26/P79lKAVcqNzHbMp2.jpeg)
 
 ## Features
  - User registration and login account 
