@@ -10,11 +10,23 @@
  - Reserve a badminton court for a specific time slot 
  - View your booking history Cancel booked time slots
 ## Intall and run
- - Clone this repository: `git clone https://github.com/clearbob999/CPU_badminton_reserve.git`
- - Make sure you have installed the required environment and dependencies before running the application.
- - Go to the project directory: `cd CPU_badminton_reserve` 
- - Install required  dependencies: npm install (or use your package management tool)    
- - Run the command `python badminton.py`
+ - Clone this repository: 
+```
+git clone https://github.com/clearbob999/CPU_badminton_reserve.git
+```
+ - A yaml file containing all requirements is provided. This can be readily setup using conda.
+ ```
+conda env create -f badminton_reserve.yaml
+conda activate gym
+```
+ - Go to the project directory: 
+ ```
+cd CPU_badminton_reserve
+```
+ - Run the command 
+```
+python badminton.py --start_time 12:00 --end_time 13:00 --ground 5号 --date 周一 --name 胡图图 --telephone 4008823823 --student_ID 3322****** --password ****** --situation True --headless False
+```
 ## Instructions for use
  - Register or log in to your account. 
  - Browse available badminton courts and times. 
